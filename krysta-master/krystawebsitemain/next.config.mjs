@@ -8,8 +8,8 @@ const nextConfig = {
   output: 'export', // Required for static export (next export)
   
   // These are important for GitHub Pages to find assets and routes correctly
-  basePath: isProd ? '/krysta-master' : '',
-  assetPrefix: isProd ? '/krysta-master/' : '',
+  basePath: isProd ? '/krysta_website' : '',
+  assetPrefix: isProd ? '/krysta_website/' : '',
 
   // Optional: skip lint/type checks during build (useful if deploying quickly or for testing)
   eslint: {
